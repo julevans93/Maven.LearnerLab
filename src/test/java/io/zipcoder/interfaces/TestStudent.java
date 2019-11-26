@@ -6,7 +6,6 @@ import org.junit.Test;
 
 public class TestStudent {
     Student student = new Student(null, null);
-    Learner learner;
 
     public TestStudent() {
 
