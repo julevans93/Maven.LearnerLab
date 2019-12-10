@@ -11,6 +11,11 @@ public class Instructor extends Person implements Teacher{
 
     }
 
+    @Override
+    public void lecture(Iterable<? extends Learner> learners, Double numberOfHours) {
+
+    }
+
     public void lecture(Learner[] learners, Double numberOfHours) {
         for (Learner learner : learners){
             learner.Learn(numberOfHours / learners.length);

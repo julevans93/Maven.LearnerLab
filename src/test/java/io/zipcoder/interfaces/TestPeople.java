@@ -5,9 +5,14 @@ import com.sun.org.apache.xpath.internal.operations.Bool;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
 
 import java.util.ArrayList;
 
+@RunWith(SpringRunner.class)
+@SpringBootTest
 public class TestPeople {
     private ArrayList<Person> personList;
     Person person;

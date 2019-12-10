@@ -18,6 +18,11 @@ public enum Educator implements Teacher {
 
     }
 
+    @Override
+    public void lecture(Iterable<? extends Learner> learners, Double numberOfHours) {
+
+    }
+
     public void lecture(Learner[] learners, Double numberOfHours) {
 
     }
